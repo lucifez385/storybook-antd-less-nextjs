@@ -1,0 +1,140 @@
+.button-common-ui {
+  border-radius: 6px;
+  font-size: @font-base;
+  height: 32px;
+  padding: 0px 10px;
+  &.ant-btn-sm {
+    font-size: @font-sm;
+    height: 24px;
+  }
+  &.ant-btn-lg {
+    font-size: @font-lg;
+    height: 40px;
+  }
+  &.btn-primary-common-ui {
+    border-color: @blue-3;
+    background-color: @blue-3;
+    color: @white;
+    &:hover {
+      background-color: @blue-2;
+      border-color: @blue-2;
+    }
+    &:active {
+      background-color: @blue-4;
+      border-color: @blue-4;
+    }
+  }
+  &.btn-negative-common-ui {
+    border-color: @red-3;
+    background-color: @red-3;
+    color: @white;
+    &:hover {
+      background-color: @red-1;
+      border-color: @red-1;
+    }
+    &:active {
+      background-color: @red-4;
+      border-color: @red-4;
+    }
+  }
+  &.btn-warning-common-ui {
+    border-color: @yellow-3;
+    background-color: @yellow-3;
+    color: @white;
+    &:hover {
+      background-color: @yellow-2;
+      border-color: @yellow-2;
+    }
+    &:active {
+      background-color: @yellow-5;
+      border-color: @yellow-5;
+    }
+  }
+  &.btn-careful-common-ui {
+    border-color: @orange-3;
+    background-color: @orange-3;
+    color: @white;
+    &:hover {
+      background-color: @orange-1;
+      border-color: @orange-1;
+    }
+    &:active {
+      background-color: @orange-5;
+      border-color: @orange-5;
+    }
+  }
+  &.btn-positive-common-ui {
+    border-color: @green-3;
+    background-color: @green-3;
+    color: @white;
+    &:hover {
+      background-color: @green-1;
+      border-color: @green-1;
+    }
+    &:active {
+      background-color: @green-5;
+      border-color: @green-5;
+    }
+  }
+  &.btn-secondary-common-ui {
+    border-color: @grey-4;
+    background-color: @grey-4;
+    color: @white;
+    &:hover {
+      background-color: @grey-3;
+      border-color: @grey-3;
+    }
+    &:active {
+      background-color: @grey-5;
+      border-color: @grey-5;
+    }
+  }
+  &.btn-base-common-ui {
+    border-color: @grey-5;
+    background-color: @white;
+    color: @grey-5;
+    &:hover {
+      border-color: @blue-3;
+      color: @blue-3;
+    }
+    &:active {
+      color: @grey-3;
+      background-color: @grey-2;
+      border-color: @grey-2;
+    }
+  }
+  &.btn-disabled-common-ui {
+    color: @grey-3;
+    background-color: @grey-2;
+    border-color: @grey-2;
+    &:hover {
+      color: @grey-3;
+      background-color: @grey-2;
+      border-color: @grey-2;
+    }
+    &:active {
+      color: @grey-3;
+      background-color: @grey-2;
+      border-color: @grey-2;
+    }
+  }
+  &.btn-text-common-ui {
+    color: @blue-3;
+    background-color: unset;
+    border-color: #ffffff00;
+    &:hover, &active {
+      color: @blue-2;
+      background-color: unset;
+      border-color: #ffffff00;
+    }
+  }
+  
+  i {
+    &.anticon {
+      font-size: @font-2xs;
+    }
+    &+ span {
+      margin-left: 5px !important;
+    }
+  }
+}
